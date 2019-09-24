@@ -2,7 +2,8 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'sans-serif', 'open sans';
-    font-size: 8px;
+    font-size: 9px;
+    text-transform: uppercase;
 }
 #nav {
     background-color: #10243B;
@@ -25,7 +26,7 @@ body {
 #nav ul li:hover {
     background-color: #333;
 }
-#nav ul li a, visited {
+#nav ul li a {
     color: #CCC;
     display: block;
     padding: 15px;
@@ -45,6 +46,13 @@ body {
 #nav ul ul li {
     display: block;
 }
-#nav ul ul li a:hover {
-    color: #699;
+
+
+
+#hero{
+    background-image: url(images/fans.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 150vw;
 }
