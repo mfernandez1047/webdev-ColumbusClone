@@ -77,3 +77,36 @@ body {
     font-style: italic;
     margin: left;
 }
+
+#explorecchs {
+    width: 100vw;
+    height: 400px;
+}
+
+#exploreheader{
+    width: 100vw;
+    height: 81px;
+    background-color: #10243B;
+    text-align: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#exploresection {
+    width: 100vw;
+    height: 319px;
+}
+
+.explorebox {
+    height: 319px;
+    width: 25%;
+    float: left;
+}
+
+#hurricane {
+    background-image: url(images/patriots\ plaza.jpg);
+    background-position: center;
+    background-size: cover;
+}
