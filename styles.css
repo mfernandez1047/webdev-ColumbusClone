@@ -1,112 +1,381 @@
-body {
-    padding: 0;
-    margin: 0;
-    font-family: 'sans-serif', 'open sans';
-    font-size: 9px;
-    text-transform: uppercase;
-}
-#nav {
-    background-color: #10243B;
-}
-#nav_wrapper {
-    width: 960px;
-    margin: 0 auto;
-    text-align: left;
-    font-family: "open sans", sans-serif;
-}
-#nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    position: relative;
-    min-width: 200px;
-}
-#nav ul li {
-    display: inline-block;
-}
-#nav ul li:hover {
-    background-color: #333;
-}
-#nav ul li a {
-    color: #CCC;
-    display: block;
-    padding: 15px;
-    text-decoration: none;
-}
-#nav ul li:hover ul {
-    display: block;
-}
-#nav ul ul {
-    display: none;
-    position: absolute;
-    background-color: #333;
-    border: 5px solid #222;
-    border-top: 0;
-    margin-left: -5px;
-}
-#nav ul ul li {
-    display: block;
-}
-
-
-
-#hero{
-    background-image: url(images/fans.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-    font-size: 13px;
-    color: white;
-
-}
-
-#herotext{
-    position: relative;
-    top: 150px;
-    left: 100px;
-
-}
-
-#maintext{
-    position: relative;
-    left: 200px;
-    top: -100px;
-    text-shadow: 1px 1px #333;
-    font-family: 'PT sans Narrow', sans-serif;
-    font-style: italic;
-    margin: left;
-}
-
-#explorecchs {
-    width: 100vw;
-    height: 400px;
-}
-
-#exploreheader{
-    width: 100vw;
-    height: 81px;
-    background-color: #10243B;
-    text-align: center;
-}
 *{
     margin: 0;
     padding: 0;
 }
 
-#exploresection {
-    width: 100vw;
-    height: 319px;
+
+
+body{
+    margin: 0px;
+    padding: 0px;
 }
 
-.explorebox {
-    height: 319px;
+
+/*----NavBar----*/
+
+#topnavbar{
+    list-style-type: none;
+    background-color: #102438;
+    color: white;
+    font-size: 13px;
+    padding: 10px;
+    margin: 0px;
+    font-family: "Open Sans" , sans-serif;
+    text-transform: uppercase;
+}
+
+
+#topnavbar ul{
+
+    padding: 10px; 
+    
+}
+
+#topnavbar li{
+    display: inline;
+    margin: 1.5vw;
+}
+
+
+#topnavbar li:first-child{
+    margin-left: 5px;
+    padding-left: 5px;
+}
+
+
+#topnavbar li:nth-child(8){
+    margin-left: 4.2vw;
+}
+
+
+.righttopnav{
+    color: #a3dde8;
+    font-size: 11px;
+    font-family: "Open Sans" , sans-serif; 
+    text-align: right;
+}
+
+
+
+/*----Hero Section----*/
+
+#hero {  
+    height: 100vh; 
+    background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0), transparent), url(images/fans.jpg) no-repeat center; 
+    background-size: cover; 
+    box-shadow: 0px 10px 20px -5px rgba(0,0,0,.8); 
+}
+
+
+#heroC{
+    margin-top: 10vh;
+    margin-left: 2vw;
+    float: left; 
+}
+
+
+#herotext{
+    position: relative;
+    top: 14.5vh;
+    left: 0.5vw;
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin: 0px;
+    text-shadow: 2px 2px #333;
+    
+}
+
+
+#herotextsmall{
+    position: relative;
+    top: 14.7vh;
+    left: 0.5vw;
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    text-shadow: 2px 2px #333;
+}
+
+
+/*---Explore cchs--*/
+
+#explorecchs{
+    width: 100vw;
+    height: 450px;
+}
+
+
+#exploreheader{
+    width: 100vw;
+    height: 61px;
+    background-color:  #102438;
+    text-align: center;
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bold;
+    padding-top: 20px;
+    font-size: 13PX;
+    
+}
+
+
+#exploresection{
+    width: 100vw;
+    height: 369px;
+}
+
+
+.explorebox{
+    height: 369px;
     width: 25%;
     float: left;
 }
 
-#hurricane {
+
+#hurricane{
     background-image: url(images/patriots\ plaza.jpg);
     background-position: center;
     background-size: cover;
 }
+
+
+#hurricanetext{
+    border: 1px solid white;
+    background:#102438;
+    margin: 150px 35px;
+    text-align: center;
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+    padding: 10px 20px;
+}
+
+
+#guidance{
+    background-image: url(images/college.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+#guidancetext{
+    border: 1px solid white;
+    background: orangered;
+    margin: 150px 35px;
+    text-align: center;
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+    padding: 20px 25px;
+}
+
+
+#CCNN{
+    background-image: url(images/ccnn.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+#CCNNtext{
+    background-image: url(images/ccnn\ live.png);
+    margin: 150px 35px;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid white;
+}
+
+
+#Media{
+    background-image: url(images/ccnn\ live.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+#mediatext{
+    border: 1px solid white;
+    background: tan;
+    margin: 150px 35px;
+    text-align: center;
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+    padding: 20px 10px;
+}
+
+
+/*---CCHS glance--*/
+
+#CCHSataglance{
+    width: 100vw;
+    height: 300px;
+}
+
+
+#glanceheader{
+    width: 100vw;
+    height: 81px;
+    background-color:  white;
+    text-align: center;
+    color: #102438;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin-top: 20px;
+    font-size: 1.0em;
+}
+
+
+#glancesections{
+    width: 100%;
+    height: 269px;
+}
+
+
+.glancelogo{
+    width: 23%;
+    height: 269px;
+    float: left;
+}
+
+
+#money{
+    background-image: url(images/carosel\ money.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 2%
+}
+
+
+#gradhat{
+    background-image: url(images/carosel\ graduation.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center; 
+}
+
+
+#book{
+    background-image: url(images/book.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+
+#teacher{
+    background-image: url(images/carosel\ teaching.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+
+#glancetextsections{
+    width: 100%;
+    height: 250px;
+}
+
+
+.glancetext{
+    text-align: center;
+    width: 23%;
+    height: 100px;
+    float: left;
+}
+
+.glancetext h2{
+    color: rgb(252, 14, 14);
+    font-family: 'PT Sans Narrow', sans-serif;
+
+}
+
+.glancetext p{
+    color: black;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+
+#moneytext{
+    margin-left: 2%;
+}
+
+/*--Box thing--*/
+
+#apcourses{
+    height: 200px;
+    width: 100vw;
+    border-bottom: 0.75px solid goldenrod; 
+}
+
+#apcoursestext{
+    text-align: center;
+    border: 1px solid darkblue;
+    margin: 0px 250px;
+    padding: 50px 35px;
+    background: #102438;
+    color: white;
+    text-align: center;   
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+/*---collegestuff-*/
+
+#colleges{
+    height: 275px;
+    width: 100%;
+    margin-top: 50px; 
+}
+
+#collegesheader{
+    width: 100vw;
+    height: 50px;
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #102438;;
+}
+
+#collegessections{
+    width: 100%;
+    height: 225px;
+}
+
+.collegesimage{
+    height: 145px;
+    background-size: cover;
+    float: left;
+}
+
+#um{
+    background-image: url(images/um.png);
+    background-repeat: none;
+    background-position: center;
+    width: 22%; 
+}
+#yale{
+    background-image: url(images/yale.png);
+    background-repeat: none;
+    background-position: center;
+    width: 20%;
+}
+
+#wakeforest{
+    background-image: url(images/wakeforest.png);
+    background-repeat: none;
+    background-position: center;
+    width: 20%; 
+}
+
+#northcarolina{
+    background-image: url(images/northcarolina.png);
+    background-repeat: none;
+    background-position: center;
+    width: 16%;
+}
+
+#MIT{
+    background-image: url(images/mit.png);
+    background-repeat: none;
+    background-position: center;
+    width: 22%;
+}
+
