@@ -11,7 +11,8 @@ body{
 }
 
 
-/*----NavBar----*/
+
+
 
 #topnavbar{
     list-style-type: none;
@@ -57,7 +58,7 @@ body{
 
 
 
-/*----Hero Section----*/
+
 
 #hero {  
     height: 100vh; 
@@ -100,7 +101,7 @@ body{
 }
 
 
-/*---Explore cchs--*/
+
 
 #explorecchs{
     width: 100vw;
@@ -205,7 +206,7 @@ body{
 }
 
 
-/*---CCHS glance--*/
+
 
 #CCHSataglance{
     width: 100vw;
@@ -299,7 +300,7 @@ body{
     margin-left: 2%;
 }
 
-/*--Box thing--*/
+
 
 #apcourses{
     height: 200px;
@@ -318,7 +319,7 @@ body{
     font-family: 'PT Sans Narrow', sans-serif;
 }
 
-/*---collegestuff-*/
+
 
 #colleges{
     height: 275px;
@@ -378,4 +379,21 @@ body{
     background-position: center;
     width: 22%;
 }
+
+.right{
+    float: right;
+}
+
+#footer{
+    list-style-type: none;
+    background-color: #333;
+    color: white;
+    font-size: 13px;
+    padding: 10px;
+    margin: 0px;
+    font-family: "Open Sans" , sans-serif;
+    text-transform: uppercase;
+}
+
+
 
