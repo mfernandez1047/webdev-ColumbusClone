@@ -1,3 +1,6 @@
+
+/*--------navbar-----------*/
+
 *{
     margin: 0;
     padding: 0;
@@ -57,7 +60,7 @@ body{
 }
 
 
-
+/*--------hero-----------*/
 
 
 #hero {  
@@ -100,7 +103,7 @@ body{
     text-shadow: 2px 2px #333;
 }
 
-
+/*--------explore-----------*/
 
 
 #explorecchs{
@@ -205,7 +208,7 @@ body{
     padding: 20px 10px;
 }
 
-
+/*--------glance-----------*/
 
 
 #CCHSataglance{
@@ -320,6 +323,8 @@ body{
 }
 
 
+/*--------colleges-----------*/
+
 
 #colleges{
     height: 275px;
@@ -384,16 +389,54 @@ body{
     float: right;
 }
 
+/*--------footer-----------*/
+
 #footer{
-    list-style-type: none;
-    background-color: #333;
-    color: white;
-    font-size: 13px;
-    padding: 10px;
-    margin: 0px;
-    font-family: "Open Sans" , sans-serif;
-    text-transform: uppercase;
+    width: 100vw;
+    height:400px;
+}
+    #footernav{
+        list-style-type: none;
+        background-color: #102438;
+        color: #a3dde8;
+        font-size: 13px;
+        padding: 0px 30px;
+margin: 0px;
+font-family: "open sans", sans-serif;
+text-transform: uppercase;
+height: 50px;
+    }
+
+
+
+
+#footernav ul{
+
+    padding: 0px; 
+    
+}
+
+#footernav li{
+        display: inline;
+        margin: 1vw;
+    
+}
+
+#footerbottom{
+width:100vw;
+height:350px;
+background-color:#333333;
+font-family: "open sans", sans-serif;
+margin-top: 0px;
+margin-bottom: 0px;
+margin-left: 0px;
 }
 
 
+
+
+#footernav li:first-child(5){
+    margin-left: 5px;
+    padding-left: 5px;
+}
 
